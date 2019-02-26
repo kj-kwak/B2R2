@@ -81,7 +81,7 @@ Let's try to use B2R2 APIs.
 1. We then create an empty console project with `dotnet` command line:
 
     ```
-    $ dotnet new console -lang F#
+    $ dotnet new console -lang "F#"
     ```
 
 1. Add our nuget package *B2R2.FrontEnd* to the project:
@@ -113,8 +113,8 @@ Let's try to use B2R2 APIs.
 Build
 -----
 
-Building B2R2 is fun and easy. All you need to do is to install .NET Core SDK
-2.0 or above. Yea, that's it!
+Building B2R2 is fun and easy. All you need to do is to install [.NET Core SDK
+2.0 or above](https://dotnet.microsoft.com/download/dotnet-core/2.2). Yea, that's it!
 
 - To build B2R2 in release mode, type ```make release``` or ```dotnet build -c
   Release``` in the source root.
